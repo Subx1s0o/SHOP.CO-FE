@@ -8,10 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        sans: ["Satoshi-Regular", "sans-serif"],
+        serif: ["Satoshi-Regular", "serif"],
+        mono: ["Satoshi-Regular", "monospace"],
+        variable: ["Satoshi-Variable", "sans-serif"],
+        light: ["Satoshi-Light", "sans-serif"],
+        medium: ["Satoshi-Medium", "sans-serif"],
+        bold: ["Satoshi-Bold", "sans-serif"],
+        black: ["Satoshi-Black", "sans-serif"],
+      },
+      fontWeight: {
+        light: "300",
+        normal: "400",
+        medium: "500",
+        bold: "700",
+        black: "900",
       },
     },
   },
