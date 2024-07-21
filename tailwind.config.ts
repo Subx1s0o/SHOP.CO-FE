@@ -8,6 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "320px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
+      fontSize: {
+        xs: "12px",
+        sm: "14px",
+        base: "16px",
+        lg: "18px",
+        xl: "24px",
+      },
+
       fontFamily: {
         sans: ["Satoshi-Regular", "sans-serif"],
         serif: ["Satoshi-Regular", "serif"],
