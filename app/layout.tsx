@@ -16,10 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header user={false} />
-        <main>
-          <div className="my-container">{children}</div>
-        </main>
+        <Header />
+        <main>{children}</main>
         <footer></footer>
       </body>
     </html>

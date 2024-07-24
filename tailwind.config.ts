@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       screens: {
         xs: "320px",
+        xsm: "480px",
         sm: "640px",
         md: "768px",
         lg: "1024px",
@@ -23,18 +24,19 @@ const config: Config = {
         lg: "18px",
         xl: "24px",
         xxl: "32px",
+        xxxl: "36px",
       },
-
       fontFamily: {
         "satoshi-variable": ["Satoshi-Variable", "sans-serif"],
         "satoshi-light": ["Satoshi-Light", "sans-serif"],
         "satoshi-medium": ["Satoshi-Medium", "sans-serif"],
         "satoshi-bold": ["Satoshi-Bold", "sans-serif"],
         "satoshi-black": ["Satoshi-Black", "sans-serif"],
-        "archivo-black": ["'Archivo Black'", "sans-serif"],
+        archivo: ["'Archivo Black'", "sans-serif"],
       },
     },
   },
   plugins: [],
 };
+
 export default config;
